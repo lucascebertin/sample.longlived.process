@@ -10,7 +10,7 @@ Com isso, tornando o exemplo bom o suficiente para se utilizar dentro de aplica√
 ## Como utilizar
 ```sh
 # para criar a imagem
-docker build -t . sample.longlived
+docker build . -t sample.longlived
 
 # para rodar um container em modo daemon
 docker run --name sample -d sample.longlived
